@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KELOMPOK 2</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="brand">
+        <a href="#" id="nav-home">
+          <img src="logo.png" alt="Logo Brand" class="brand-logo">
+        </a>
+        </a>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#" id="nav-home-link">Beranda</a></li>
+        <li><a href="#" id="nav-about-link" data-target="anggota">Anggota</a></li>
+        <li><a href="#" id="nav-contact-link" data-target="pustaka">Pustaka</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- MAIN -->
+  <main id="main-wrap">
+    <!-- BERANDA -->
+    <section id="home" class="content-section">
+      <div class="container">
+        <div class="content-column">
+          <header class="page-header">
+            <h1>Halaman Utama</h1>
+            <p class="subtitle">Penjelasan tentang Sistem Operasi, Manajemen memori, Buffering, Deadlock, dan Keamanan .</p>
+          </header>
+          <div id="posts-list" class="posts-list"></div>
+        </div>
+
+        <aside class="sidebar">
+          <div class="profile-card">
+            <img src="logo.png" alt="foto profil" class="foto-profil">
+            <h3>Logo</h3>
+            <p>Kenapa di beri nama Maju Pertama, karena nanti ketika presentasi kelompok ini maju pertama. </p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- DETAIL POST -->
+    <section id="post-detail" class="content-section hidden">
+      <div class="container single-post">
+        <div class="content-column">
+          <button id="back-to-list" class="btn-back">&larr; Kembali</button>
+          <article id="post-article">
+            <h2 id="post-title"></h2>
+            <p class="post-meta" id="post-meta"></p>
+            <img id="post-image" src="" alt="" class="post-image">
+            <div id="post-content" class="post-content"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ANGGOTA -->
+    <section id="anggota" class="content-section hidden">
+      <div class="container">
+        <div class="content-column">
+          <h2>Anggota Kelompok 2</h2>
+          <ul style="list-style-type: none; padding: 0; text-align: left;">
+            <li>1. Fariz Aqil ( Instalasi Web Server ) </li>
+            <li>2. Adnan Firdaus ( Instalasi Ubuntu )</li>
+            <li>3. Dzaky Sev Faiq ( Desain web )</li>
+          </ul>
+        </div>
+
+        <aside class="sidebar">
+          <div class="widget">
+            <h4>Peran</h4>
+            <p>Setiap anggota memiliki tugas masing-masing seperti Instalasi Ubuntu, Web server, dan Desain Web.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- PUSTAKA -->
+    <section id="pustaka" class="content-section hidden">
+      <div class="container">
+        <div class="content-column">
+          <h2>Daftar Pustaka</h2>
+          <ul style="line-height: 1.8;">
+  
+  <li>
+    <a href="admin,+Sistem+Operasi+-+Fix (1).pdf" target="_blank">
+      Maya Utami Dewi S.Kom, M.Kom. (2021). <em>SISTEM OPERASI DAN UTILITY</em>.
+    </a>
+  </li>
+
+  <li>
+    <a href="Sistem-Operasi-Meyti-Eka-Apriyani-dkk_copy.pdf" target="_blank">
+      Meyti Eka Apriyani, dkk. (2022). <em>SISTEM OPERASI</em>.
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.geeksforgeeks.org/operating-systems/i-o-buffering-and-its-various-techniques/" target="_blank">
+      GeeksForGeeks (2025). <em>I/O BUFFERING TECHNIQUES</em>.
+    </a>
+  </li>
+
+  <li>
+    <a href="Jurnal_Analisa_dan_Observasi_Sistem_Oper_copy.pdf" target="_blank">
+      Aceng Abdul Wahid (2019). <em>ANALISIS SISTEM KEAMANAN OS</em>.
+    </a>
+  </li>
+
+  <li>
+    <a href="MAKALAH INSTALASI UBUNTU DAN WEB SERVER.pdf" target="_blank">
+      Kelompok2. (2025). <em>MAKALAH INSTALASI UBUNTU DAN WEB SERVER</em>.
+    </a>
+  </li>
+
+  <li>
+    <a href="video.mp4" target="_blank">
+      Kelompok2. (2025). <em>VIDEO INSTALASI UBUNTU DAN WEB SERVER</em>.
+    </a>
+  </li>
+</ul>
+
+        </div>
+
+        <aside class="sidebar">
+          <div class="widget">
+            <h4>Catatan</h4>
+            <p>Referensi di samping digunakan untuk melengkapi pembahasan terkait topik sistem operasi, teknologi informasi, tutorial instalasi Ubuntu dan Web Server.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer">
+    <div class="footer-inner">
+      <p>© <span id="footer-year"></span> Maju Pertama — Dibangun untuk ilmu pengetahuan.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
